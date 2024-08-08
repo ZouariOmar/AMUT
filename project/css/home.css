@@ -1,0 +1,45 @@
+/**************************************************
+ * @file home.css
+ * @author @ZouariOmar (zouariomar20@gmail.com)
+ * @IDE VSC
+ * @version 0.1
+ * @date 2024-06-06
+ * @copyright Copyright (c) 2024
+ ************************************************* */
+marquee {
+  background-color: #3586ff;
+}
+
+.AMUT_vid {
+  width: 1020px;
+  border-radius: 24px;
+  border: solid #333;
+  display: block;
+  margin: 10px auto;
+  transition: 1s;
+}
+.AMUT_vid:hover {
+  border-color: #3586ff;
+  box-shadow: 0 0.1rem 1rem #3586ff;
+}
+
+.lastNews h1 {
+  font-size: 30px;
+  text-align: center;
+  color: #4c89af9b;
+  transition: 1s;
+}
+.lastNews h1:hover {
+  scale: 1.1;
+}
+
+@media screen and (max-width: 1050px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+
+  .AMUT_vid {
+    width: 70%;
+  }
+}

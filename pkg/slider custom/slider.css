@@ -1,0 +1,52 @@
+/**
+ * ************************************************
+ * @file slider.css
+ * @author @ZouariOmar (zouariomar20@gmail.com)
+ * @IDE VSC
+ * @version 0.1
+ * @date 06-08-2024
+ * @copyright Copyright (c) 2024
+ * *************************************************
+ */
+.slider {
+  position: sticky;
+  overflow: hidden;
+  border: 2px solid #00a9ec57;
+}
+
+.slides {
+  display: flex;
+  transition: transform 2s ease-in-out;
+  width: 30%;
+}
+.slides img {
+  width: 50%;
+  height: auto;
+  flex-shrink: 0;
+  border: 2px solid #00a9ec57;
+}
+
+/* Navigation buttons */
+button.prev, button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #00a9ec57;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button.prev {
+  left: 5px;
+}
+
+button.next {
+  right: 5px;
+}
+
+button.prev:hover, button.next:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}

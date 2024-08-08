@@ -1,0 +1,146 @@
+.header_02 {
+	font-size: 50px;
+	text-align: center;
+	color: #4c89af9b;
+}
+
+.sub_p {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 20px;
+	text-align: right;
+	background: white;
+	margin: 20px;
+	padding-bottom: 10px;
+}
+
+.sub_p img {
+	max-width: 100%;
+	height: auto;
+	margin-right: 20px;
+	transform: scale(0.8);
+	transition: transform 0.3s ease-in-out;
+}
+
+.sub_p img:hover {
+	transform: scale(1);
+}
+
+.sub_p ul {
+	border-radius: 12px;
+	margin: 20px;
+	padding: 30px;
+	list-style-type: disc;
+	word-spacing: 5px;
+	line-height: 1.6;
+	background: #0095ff1f;
+	box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.1);
+	filter: sepia(1);
+}
+
+.sub_p ul:hover {
+	filter: none;
+}
+
+.sub_p li {
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+
+hr {
+	opacity: 0.1;
+	margin: 20px;
+}
+
+.column {
+	float: right;
+	width: 25%;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.about-section {
+	padding: 50px;
+	text-align: center;
+	background-image: linear-gradient(
+			rgba(49, 119, 194, 0.5),
+			rgba(161, 64, 64, 0.5)
+		),
+		url("../res/AMUT06.png");
+	background-position: left;
+	color: black;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: 5px;
+	background-color: #0095ff1f;
+}
+
+.container {
+	padding: 0 10px;
+	text-align: right;
+}
+.row {
+	margin: 0 150px 0 150px;
+}
+.container::after,
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.title {
+	color: grey;
+}
+
+.prsl_img {
+	width: 100%;
+	height: auto;
+}
+
+.btn-posnawr {
+	color: #00abec;
+	position: relative;
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+	max-width: 250px;
+	border-radius: 8px;
+	margin: 1rem auto;
+	font: normal 18px/60px "proxima-nova", sans-serif;
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid #4d92ad;
+}
+
+.btn-posnawr span {
+	position: absolute;
+	display: block;
+	width: 0;
+	height: 0;
+	border-radius: 50%;
+	background-color: #00abec;
+	-webkit-transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	z-index: -1;
+}
+
+.btn-posnawr:hover {
+	color: #eee;
+	transform: scale(1.05);
+}
+
+.btn-posnawr:hover span {
+	width: 225%;
+	height: 562.5px;
+}
+
+.btn-posnawr:active {
+	background-color: #00c4ad;
+}
