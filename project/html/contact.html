@@ -15,6 +15,12 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+		<!--* Set the page icon -->
+		<link
+			rel="website icon"
+			type="png"
+			href="/project/res/AMUT imgs/logo.png" />
+
 		<!--* Linkers -->
 		<link rel="stylesheet" type="text/css" href="../css/default.css" />
 		<link rel="stylesheet" type="text/css" href="../css/navbar.css" />
@@ -34,14 +40,17 @@
 				<li style="float: right">
 					<img
 						src="/project/res/AMUT imgs/logo.png"
+						title="AMUT"
 						alt="logo.png"
 						class="logo" />
 				</li>
 				<li>
-					<a href="/project/html/index.html">الصفحة الرئيسية</a>
+					<a href="/project/html/index.html"
+						><i class="fa fa-home"></i>الصفحة الرئيسية</a
+					>
 				</li>
 				<li>
-					<a href="#">الجمعية</a>
+					<a href="#"><i class="fa fa-caret-down"></i>الجمعية</a>
 					<ul class="submenu">
 						<li>
 							<a href="/project/html/charity html/about_us.html">من نحن ؟</a>
@@ -62,7 +71,7 @@
 					</ul>
 				</li>
 				<li>
-					<a href="#">الأنشطة</a>
+					<a href="#"><i class="fa fa-caret-down"></i>الأنشطة</a>
 					<ul class="submenu">
 						<li>
 							<a href="/project/html/activities html/act-2024.html">2024</a>
@@ -78,30 +87,48 @@
 						</li>
 					</ul>
 				</li>
-				<li><a href="/project/html/contact.html" class="active">الإتصال</a></li>
+				<li>
+					<a href="/project/html/contact.html" class="active"
+						><i class="fa fa-phone"></i>الإتصال</a
+					>
+				</li>
 			</ul>
 		</nav>
 		<!--* Navbar: end -->
 
 		<!--* Form: start -->
-		<form class="form">
+		<form
+			class="form"
+			onsubmit="emailSend(); reset(); return false;">
 			<h2>تواصل معنا</h2>
 			<p type="الاسم:" class="p">
-				<input placeholder="اكتب اسمك هنا.." />
+				<input type="text" id="name" placeholder="اكتب اسمك هنا.." required />
 			</p>
 			<p type="بريد إلكتروني:" class="p">
-				<input placeholder="أخبرنا كيف يمكننا التواصل معك.." />
+				<input
+					type="email"
+					id="email"
+					placeholder="أخبرنا كيف يمكننا التواصل معك.."
+					required />
 			</p>
 			<p type="رسالة:" class="p">
-				<input placeholder="ماذا تريد أن تخبرنا.." />
+				<input
+					type="text"
+					id="message"
+					placeholder="ماذا تريد أن تخبرنا.."
+					required />
 			</p>
-			<button>إرسال</button>
+			<button type="submit" onclick="emailSend">إرسال</button>
 			<div class="div">
 				<span class="fa fa-phone"></span>(+216) 93-490-909
 				<span class="fa fa-envelope-o"></span>contact@amut.org.tn
 				<span class="fa fa-map-marker"></span>Tunisia, Sfax
 			</div>
 		</form>
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+		<script type="text/javascript" src="/project/js/contact.js"></script>
 		<!--* Form: end -->
 
 		<!--* Footer part: start -->

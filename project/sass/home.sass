@@ -11,21 +11,10 @@
 $AMUT_COLOR: #00a9ec57
 $AMUT_COLOR1: #3586ff
 
-marquee 
-  background-color: #3586ff
+marquee
+  background-color: $AMUT_COLOR1
 
-.AMUT_vid
-  width: 1020px
-  border-radius: 24px
-  border: solid #333
-  display: block
-  margin: 10px auto
-  transition: 1s
-
-  &:hover
-    border-color: #3586ff
-    box-shadow: 0 0.1rem 1rem #3586ff
-
+/* Last news section */
 .lastNews h1
   font-size: 30px
   text-align: center
@@ -34,6 +23,19 @@ marquee
 
   &:hover
     scale: 1.1
+
+/* AMUT intro video */
+.AMUT_vid
+  width: 1020px
+  border-radius: 24px
+  border: solid #333
+  display: block
+  margin: 10px 20px
+  transition: 1s
+
+  &:hover
+    border-color: $AMUT_COLOR1
+    box-shadow: 0 0.1rem 1rem $AMUT_COLOR1
 
 @media screen and (max-width: 1050px)
   .column

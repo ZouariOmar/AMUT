@@ -62,13 +62,13 @@
 
 AMUT (Association des Médecins Unis pour la Tunisie - جمعية أطباء من أجل تونس) is a **_website project_** to present the association's initiatives, events, and contributions towards the medical field in Tunisia. The website will serve as a platform for communication, collaboration, and information dissemination among medical professionals and the general public. Key features include a **home page** with an introduction to AMUT and latest news, an **about us section** with detailed information about the association, an **events section** for upcoming and past events, and a **contact us section** with a contact form and information. The project uses `HTML`, `CSS`, `JavaScript`, `Sass` for styling, and `GitHub` for version control. For more information, you can reach out via email at [zouariomar20@gmail.com](mailto:zouariomar20@gmail.com), visit the [GitHub repository](https://github.com/ZouariOmar/AMUT), or check the LinkedIn profile at [Zouari Omar](https://www.linkedin.com/in/zouari-omar-143239283/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#about-the-project">back to top</a>)</p>
 
 ## Built With
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#about-the-project">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -88,7 +88,7 @@ To get a local copy up and running follow these simple example steps.
    `default-browser` AMUT/Project/html/index.html
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#about-the-project">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 
@@ -120,7 +120,7 @@ The Contact Us section includes a form for users to get in touch with AMUT for a
 
 ![Contact Page](project/res/screenshots/contact.png)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#about-the-project">back to top</a>)</p>
 
 <!-- Project Structure -->
 
@@ -218,7 +218,7 @@ The Contact Us section includes a form for users to get in touch with AMUT for a
 
 See the [open issues](https://github.com/ZouariOmar/AMUT/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#about-the-project">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -235,7 +235,7 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#about-the-project">back to top</a>)</p>
 
 <!-- LICENSE -->
 
@@ -243,7 +243,7 @@ Don't forget to give the project a star! Thanks again!
 
 This project is licensed under the MIT License - see the [LICENSE](/ZouariOmar/AMUT/blob/main/LICENSE) file for details.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#about-the-project">back to top</a>)</p>
 
 <!-- CONTACT -->
 
@@ -253,7 +253,7 @@ If you have any questions or suggestions, please feel free to reach out to us at
 
 Project Link: [https://github.com/ZouariOmar/AMUT](https://github.com/ZouariOmar/AMUT)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#about-the-project">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 
@@ -261,4 +261,4 @@ Project Link: [https://github.com/ZouariOmar/AMUT](https://github.com/ZouariOmar
 
 - [AMUT](https://www.facebook.com/AMUT2012)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#about-the-project">back to top</a>)</p>
