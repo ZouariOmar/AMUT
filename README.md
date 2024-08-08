@@ -1,10 +1,10 @@
 <!-- PROJECT SHIELDS -->
-[![Contributors](https://img.shields.io/github/contributors/ZouariOmar/AMUT.svg?style=for-the-badge)](test)
-[![Forks](https://img.shields.io/github/forks/ZouariOmar/AMUT.svg?style=for-the-badge)](test)
-[![Stargazers](https://img.shields.io/github/stars/ZouariOmar/AMUT.svg?style=for-the-badge)](test)
-[![Issues](https://img.shields.io/github/issues/ZouariOmar/AMUT.svg?style=for-the-badge)]()
-[![MIT License](https://img.shields.io/github/license/ZouariOmar/AMUT.svg?style=for-the-badge)](LICENCE.txt)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](https://www.linkedin.com/in/zouari-omar-143239283)
+
+[![Contributors](https://img.shields.io/badge/CONTRIBUTORS-01-blue?style=plastic)](https://github.com/ZouariOmar/AMUT/graphs/contributors) [![Forks](https://img.shields.io/badge/FORKS-00-blue?style=plastic)](https://github.com/ZouariOmar/AMUT/network/members)
+[![Stargazers](https://img.shields.io/badge/STARS-01-blue?style=plastic)](https://github.com/ZouariOmar/AMUT/stargazers)
+[![Issues](https://img.shields.io/badge/ISSUES-01-blue?style=plastic)](https://github.com/ZouariOmar/AMUT/issues)
+[![MIT License](https://img.shields.io/badge/LICENSE-MIT-blue?style=plastic)](LICENSE)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=linkedin&colorB=blue)](https://www.linkedin.com/in/zouari-omar-143239283)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -60,7 +60,7 @@
 
 ![AMUT Website](project/res/screenshots/home.png)
 
-AMUT (Association des Médecins Unis pour la Tunisie - جمعية أطباء من أجل تونس) is a ***website project*** to present the association's initiatives, events, and contributions towards the medical field in Tunisia. The website will serve as a platform for communication, collaboration, and information dissemination among medical professionals and the general public. Key features include a **home page** with an introduction to AMUT and latest news, an **about us section** with detailed information about the association, an **events section** for upcoming and past events, and a **contact us section** with a contact form and information. The project uses `HTML`, `CSS`, `JavaScript`, `Sass` for styling, and `GitHub` for version control. For more information, you can reach out via email at [zouariomar20@gmail.com](mailto:zouariomar20@gmail.com), visit the [GitHub repository](https://github.com/ZouariOmar/AMUT), or check the LinkedIn profile at [Zouari Omar](https://www.linkedin.com/in/zouari-omar-143239283/).
+AMUT (Association des Médecins Unis pour la Tunisie - جمعية أطباء من أجل تونس) is a **_website project_** to present the association's initiatives, events, and contributions towards the medical field in Tunisia. The website will serve as a platform for communication, collaboration, and information dissemination among medical professionals and the general public. Key features include a **home page** with an introduction to AMUT and latest news, an **about us section** with detailed information about the association, an **events section** for upcoming and past events, and a **contact us section** with a contact form and information. The project uses `HTML`, `CSS`, `JavaScript`, `Sass` for styling, and `GitHub` for version control. For more information, you can reach out via email at [zouariomar20@gmail.com](mailto:zouariomar20@gmail.com), visit the [GitHub repository](https://github.com/ZouariOmar/AMUT), or check the LinkedIn profile at [Zouari Omar](https://www.linkedin.com/in/zouari-omar-143239283/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,7 +119,6 @@ The activities section provides access to activities articles and other valuable
 The Contact Us section includes a form for users to get in touch with AMUT for any inquiries or collaboration opportunities. This ensures easy communication between the association and interested parties.
 
 ![Contact Page](project/res/screenshots/contact.png)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
