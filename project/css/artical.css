@@ -1,15 +1,12 @@
-/** @format */
-
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
-
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-}
-
+@charset "UTF-8";
+/**************************************************
+ * @file default.css
+ * @author @ZouariOmar (zouariomar20@gmail.com)
+ * @IDE VSC
+ * @version 0.1
+ * @date 2024-06-06
+ * @copyright Copyright (c) 2024
+ ************************************************* */
 body {
   background-image: url("../res/AMUT imgs/logo.png");
   background-repeat: no-repeat;
@@ -17,113 +14,143 @@ body {
 }
 
 .container {
-	display: flex;
-	margin: 2rem;
-	gap: 2rem;
+  display: flex;
+  margin: 2rem;
+  gap: 2rem;
 }
-
 .container img {
-	max-width: 100%;
-	display: block;
-	object-fit: cover;
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
 }
 
 .card {
-  border: solid #00000049 ;
+  border: solid #00000049;
   color: black;
   text-decoration: none;
-	display: flex;
-	flex-direction: column;
-	width: clamp(20rem, calc(20rem + 2vw), 22rem);
-	overflow: hidden;
-	box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.3);
-	border-radius: 1em;
-	background: linear-gradient(to right, #ffffff, #ece9e6, #b4dceed2);
-	transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  width: clamp(20rem, calc(20rem + 2vw), 22rem);
+  overflow: hidden;
+  box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.3);
+  border-radius: 1em;
+  background: linear-gradient(to right, #ffffff, #ece9e6, #b4dceed2);
+  transition: transform 0.3s ease-in-out;
   opacity: 0.8;
-
 }
-
 .card:hover {
   transform: scale(1.1);
   opacity: 1;
 }
-
 .card__body {
-	padding: 1rem;
-	display: flex;
-	flex-direction: column;
-	gap: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .tag {
-	align-self: flex-start;
-	padding: 0.25em 0.75em;
-	border-radius: 1em;
-	font-size: 0.75rem;
+  align-self: flex-start;
+  padding: 0.25em 0.75em;
+  border-radius: 1em;
+  font-size: 0.75rem;
 }
-
 .tag + .tag {
-	margin-left: 0.5em;
+  margin-left: 0.5em;
 }
-
 .tag-blue {
-	background: #56ccf2;
-	background: linear-gradient(to bottom, #2f80ed, #56ccf2);
-	color: #fafafa;
-}
-
-.tag-brown {
-	background: #d1913c;
-	background: linear-gradient(to bottom, #ffd194, #d1913c);
-	color: #fafafa;
-}
-
-.tag-red {
-	background: #cb2d3e;
-	background: linear-gradient(to bottom, #ef473a, #cb2d3e);
-	color: #fafafa;
+  background: #56ccf2;
+  background: linear-gradient(to bottom, #2f80ed, #56ccf2);
+  color: #fafafa;
 }
 
 .card__body h4 {
-	font-size: 1.5rem;
-	text-transform: capitalize;
+  font-size: 1.5rem;
+  text-transform: capitalize;
 }
 
 .card__footer {
-	display: flex;
-	padding: 1rem;
-	margin-top: auto;
+  display: flex;
+  padding: 1rem;
+  margin-top: auto;
 }
 
 .user__info > small {
-	color: #666;
+  color: #666;
 }
 
 .information {
   display: flex;
-	justify-content: space-between;
-	font-size: 20px;
-	margin: 20px;
-	padding-bottom: 10px;
+  justify-content: space-between;
+  font-size: 20px;
+  margin: 20px;
+  padding-bottom: 10px;
 }
-
 .information p {
-	border-radius: 12px;
-	padding: 20px;
+  border-radius: 12px;
+  padding: 20px;
   margin: 10px;
-	line-height: 1.5;
-	background: #0095ff1f;
-	box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.1);
-	filter: sepia(1);
+  line-height: 1.5;
+  background: #0095ff1f;
+  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.1);
+  filter: sepia(1);
 }
-
 .information p:hover {
-	filter: none;
+  filter: none;
 }
-
 .information h2 {
   font-size: 30px;
-	text-align: center;
-	color: #4c89af9b;
+  text-align: center;
+  color: #4c89af9b;
+}
+
+/* Article Sass part */
+.sub_article {
+  margin: 100px;
+  border-radius: 20px;
+  box-shadow: 0 0.1rem 1rem #333;
+  transition: 1s;
+}
+.sub_article:hover {
+  border-color: #3586ff;
+  box-shadow: 0 0.1rem 1rem #3586ff;
+}
+.sub_article h1 {
+  font-size: 50px;
+  padding: 10px;
+  text-align: center;
+  color: #000000;
+  background-color: #3586ff;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.sub_article div {
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-bottom: 10px;
+}
+.sub_article div p {
+  background-color: #3586ff73;
+  border-radius: 15px;
+  padding: 10px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.sub_article div figure {
+  display: flex;
+  object-fit: contain;
+  gap: 10px;
+}
+.sub_article div figure img {
+  width: 100%;
+  border-radius: 15px;
+  transition: 1s;
+  flex: 1;
+}
+.sub_article div figure img:hover {
+  flex-grow: 3;
+}
+
+.li_prg::before {
+  content: "🔹";
 }

@@ -63,11 +63,12 @@ button:hover {
 	background: #3586ff;
 	color: #fff;
 }
+
 .div {
   direction: ltr;
 	content: "Hi";
 	position: absolute;
-	bottom: -15px;
+	bottom: -30px;
 	right: -20px;
 	background: #50505a;
 	color: #fff;
@@ -77,6 +78,7 @@ button:hover {
 	font-size: 13px;
 	box-shadow: 10px 10px 40px -14px #000;
 }
+
 span {
 	margin: 0 15px 0 15px;
 

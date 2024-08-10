@@ -97,18 +97,24 @@
 		<!--* Navbar: end -->
 
 		<!--* Form: start -->
-		<form
-			class="form"
-			onsubmit="emailSend(); reset(); return false;">
+		<form class="form" onsubmit="emailSend(); reset(); return false;">
 			<h2>تواصل معنا</h2>
 			<p type="الاسم:" class="p">
 				<input type="text" id="name" placeholder="اكتب اسمك هنا.." required />
+			</p>
+			<p type="رقم الهاتف" class="p">
+				<input
+					type="tel"
+					id="tel"
+					dir="rtl"
+					placeholder="ضع رقم هاتفك هنا.."
+					required />
 			</p>
 			<p type="بريد إلكتروني:" class="p">
 				<input
 					type="email"
 					id="email"
-					placeholder="أخبرنا كيف يمكننا التواصل معك.."
+					placeholder="ضع بريدك الإلكتروني هنا.."
 					required />
 			</p>
 			<p type="رسالة:" class="p">
