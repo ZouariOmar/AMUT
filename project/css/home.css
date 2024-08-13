@@ -6,44 +6,64 @@
  * @date 2024-06-06
  * @copyright Copyright (c) 2024
  ************************************************* */
+@keyframes change-color {
+  0% {
+    background-color: green; }
+  100% {
+    background-color: red; } }
 marquee {
   background-color: #3586ff;
-  font-size: 30px;
-}
+  font-size: 20px; }
 
 /* Last news section */
 .lastNews h1 {
-  font-size: 30px;
+  font-family: serif;
+  font-size: 50px;
   text-align: center;
-  color: #4c89af9b;
-  transition: 1s;
-}
-.lastNews h1:hover {
-  scale: 1.1;
-}
+  color: #333;
+  transition: 1s; }
+  .lastNews h1:hover {
+    scale: 1.1; }
+.lastNews div {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 100px; }
+  .lastNews div iframe {
+    background-color: #333;
+    border: solid 2px #333;
+    box-shadow: 0 0.1rem 1rem #333;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 500px;
+    height: 450px;
+    transition: 1s; }
+    .lastNews div iframe:hover {
+      border-color: #3586ff;
+      box-shadow: 0 0.1rem 1rem #3586ff; }
 
 /* AMUT intro video */
-.AMUT_vid {
-  width: 1020px;
-  border-radius: 24px;
-  border: solid #333;
-  display: block;
-  margin: 10px 20px;
-  transition: 1s;
-}
-
-.AMUT_vid:hover {
-  border-color: #3586ff;
-  box-shadow: 0 0.1rem 1rem #3586ff;
-}
+.h__sec {
+  display: flex;
+  background: linear-gradient(0deg, #0059ff00 0%, #3586ff 80%); }
+  .h__sec video {
+    width: 1020px;
+    border-radius: 20px;
+    border: solid #333;
+    box-shadow: 0 0.1rem 1rem #333;
+    display: flexbox;
+    margin: 20px auto;
+    transition: 1s; }
+    .h__sec video:hover {
+      border-color: #3586ff;
+      box-shadow: 0 0.1rem 1rem #3586ff; }
 
 @media screen and (max-width: 1050px) {
   .column {
     width: 100%;
-    display: block;
-  }
+    display: block; }
 
   .AMUT_vid {
-    width: 70%;
-  }
-}
+    width: 70%; } }
+
+/*# sourceMappingURL=home.css.map */

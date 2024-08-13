@@ -1,7 +1,13 @@
 .header_02 {
+	font-family: serif;
 	font-size: 50px;
 	text-align: center;
-	color: #4c89af9b;
+  color: #333;
+	transition: 1s;
+}
+
+.header_02:hover {
+	scale: 1.1
 }
 
 .sub_p {

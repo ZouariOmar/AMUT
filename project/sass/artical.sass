@@ -7,40 +7,103 @@
  * @copyright Copyright (c) 2024
  ************************************************* */
 
-// Mixin D&D part
-@mixin theme($color0, $color1)
+/*? Mixin D&D part */
+@mixin theme()
   background-image: url("/project/res/custom/image copy.png")
   margin: 100px
+  border: solid 2px
   border-radius: 20px
-  box-shadow: 0 0.1rem 1rem #333
+  box-shadow: 0 0.5rem 1rem #333
   transition: 1s
 
   &:hover
-    border-color: $color0
-    box-shadow: 0 0.1rem 1rem $color0
+    box-shadow: 0 0.1rem 1rem #0066ff
+    border-color: #0066ff
+    h1
+      color: #0066ff
 
   h1
+    font-family: serif
     font-size: 50px
+    color: #333
     padding: 10px
     text-align: center
-    color: #000000
-    background-color: $color0
+    border-block-end: solid 3px
     border-radius: 15px
-    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.1)
-
-    &:hover
-      border: solid 1px
 
   div
     margin-right: 20px
     margin-left: 20px
     padding-bottom: 10px
     p
-      background-color: $color1
+      background-color: #3586ff73
       border-radius: 15px
       padding: 10px
       margin-right: 20px
       font-size: 20px
+
+@mixin article-tempate-00()
+  @include theme()
+  div
+    figure
+      display: flex
+      object-fit: contain
+      gap: 10px
+
+      img
+        width: 100%
+        border-radius: 15px
+        transition: 1s
+        flex: 1
+
+        &:hover
+          flex-grow: 3
+
+@mixin article-template-01($size0, $size1)
+  @include theme()
+  div
+    figure
+      display: flex
+      object-fit: contain
+      gap: 10px
+
+      img
+        display: block
+        margin-left: auto
+        margin-right: auto
+        width: $size0
+        border-radius: 15px
+        transition: 1s
+
+        &:hover
+          width: $size1
+          translate: 0 -20%
+          box-shadow: 10px 100px 100px 100px rgba(0, 0, 0, 0.562)
+    i
+      font-size: 30px
+      color: black
+      margin-right: 97%
+      transition: 1s
+      &:hover
+        translate: 0 -10px
+        color: blue
+
+@mixin article-tempate-02()
+  @include theme()
+  div
+    display: flex
+    p
+      width: 100%
+      height: 20%
+    figure
+      img
+        border-radius: 15px
+        width: 70%
+        transition: 1s
+        &:hover
+          translate: 120%
+          scale: 2
+          box-shadow: 10px 100px 100px 100px rgba(0, 0, 0, 0.562)
 
 body
   background-image: url("../res/AMUT imgs/logo.png")
@@ -131,22 +194,8 @@ body
     color: #4c89af9b
 
 /* Article Sass part */
-.sub_article00
-  @include theme(#3586ff, #3586ff73)
-  div
-    figure
-      display: flex
-      object-fit: contain
-      gap: 10px
-
-      img
-        width: 100%
-        border-radius: 15px
-        transition: 1s
-        flex: 1
-
-        &:hover
-          flex-grow: 3
+.sub_article00, .sub_article07
+  @include article-tempate-00()
 
 .li_prg
   &::before
@@ -155,38 +204,17 @@ body
   &::after
     content: "--🔹"
 
-.sub_article01
-  @include theme(#ffae00, #ffae0059)
-  div
-    display: flex
-    p
-      width: 100%
-      height: 20%
-    figure
-      img
-        border-radius: 15px
-        width: 100%
-        transition: 1s
-        &:hover
-          translate: 110%
-          scale: 2
-          box-shadow: 10px 100px 100px 100px rgba(0, 0, 0, 0.562)
+.sub_article01, .sub_article03, .sub_article05
+  @include article-tempate-02()
 
 .sub_article02
-  @include theme(#ff0000, #ff00005d)
-  div
-    figure
-      display: flex
-      object-fit: contain
+  @include article-template-01(10%, 50%)
 
-      img
-        display: block
-        margin-left: auto
-        margin-right: auto
-        width: 10%
-        border-radius: 15px
-        transition: 1s
+.sub_article04
+  @include article-template-01(50%, 100%)
 
-        &:hover
-          width: 50%
-          translate: 0 -40%
+.sub_article06
+  @include article-template-01(30%, 50%)
+
+.sub_article08
+  @include article-template-01(30%, 40%)

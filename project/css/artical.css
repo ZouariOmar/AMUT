@@ -7,6 +7,7 @@
  * @date 2024-06-06
  * @copyright Copyright (c) 2024
  ************************************************* */
+/*? Mixin D&D part */
 body {
   background-image: url("../res/AMUT imgs/logo.png");
   background-repeat: no-repeat;
@@ -89,45 +90,46 @@ body {
     color: #4c89af9b; }
 
 /* Article Sass part */
-.sub_article00 {
+.sub_article00, .sub_article07 {
   background-image: url("/project/res/custom/image copy.png");
   margin: 100px;
+  border: solid 2px;
   border-radius: 20px;
-  box-shadow: 0 0.1rem 1rem #333;
+  box-shadow: 0 0.5rem 1rem #333;
   transition: 1s; }
-  .sub_article00:hover {
-    border-color: #3586ff;
-    box-shadow: 0 0.1rem 1rem #3586ff; }
-  .sub_article00 h1 {
+  .sub_article00:hover, .sub_article07:hover {
+    box-shadow: 0 0.1rem 1rem #0066ff;
+    border-color: #0066ff; }
+    .sub_article00:hover h1, .sub_article07:hover h1 {
+      color: #0066ff; }
+  .sub_article00 h1, .sub_article07 h1 {
+    font-family: serif;
     font-size: 50px;
+    color: #333;
     padding: 10px;
     text-align: center;
-    color: #000000;
-    background-color: #3586ff;
-    border-radius: 15px;
-    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.1); }
-    .sub_article00 h1:hover {
-      border: solid 1px; }
-  .sub_article00 div {
+    border-block-end: solid 3px;
+    border-radius: 15px; }
+  .sub_article00 div, .sub_article07 div {
     margin-right: 20px;
     margin-left: 20px;
     padding-bottom: 10px; }
-    .sub_article00 div p {
+    .sub_article00 div p, .sub_article07 div p {
       background-color: #3586ff73;
       border-radius: 15px;
       padding: 10px;
       margin-right: 20px;
       font-size: 20px; }
-  .sub_article00 div figure {
+  .sub_article00 div figure, .sub_article07 div figure {
     display: flex;
     object-fit: contain;
     gap: 10px; }
-    .sub_article00 div figure img {
+    .sub_article00 div figure img, .sub_article07 div figure img {
       width: 100%;
       border-radius: 15px;
       transition: 1s;
       flex: 1; }
-      .sub_article00 div figure img:hover {
+      .sub_article00 div figure img:hover, .sub_article07 div figure img:hover {
         flex-grow: 3; }
 
 .li_prg::before {
@@ -136,81 +138,84 @@ body {
 .la_prg::after {
   content: "--🔹"; }
 
-.sub_article01 {
+.sub_article01, .sub_article03, .sub_article05 {
   background-image: url("/project/res/custom/image copy.png");
   margin: 100px;
+  border: solid 2px;
   border-radius: 20px;
-  box-shadow: 0 0.1rem 1rem #333;
+  box-shadow: 0 0.5rem 1rem #333;
   transition: 1s; }
-  .sub_article01:hover {
-    border-color: #ffae00;
-    box-shadow: 0 0.1rem 1rem #ffae00; }
-  .sub_article01 h1 {
+  .sub_article01:hover, .sub_article03:hover, .sub_article05:hover {
+    box-shadow: 0 0.1rem 1rem #0066ff;
+    border-color: #0066ff; }
+    .sub_article01:hover h1, .sub_article03:hover h1, .sub_article05:hover h1 {
+      color: #0066ff; }
+  .sub_article01 h1, .sub_article03 h1, .sub_article05 h1 {
+    font-family: serif;
     font-size: 50px;
+    color: #333;
     padding: 10px;
     text-align: center;
-    color: #000000;
-    background-color: #ffae00;
-    border-radius: 15px;
-    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.1); }
-    .sub_article01 h1:hover {
-      border: solid 1px; }
-  .sub_article01 div {
+    border-block-end: solid 3px;
+    border-radius: 15px; }
+  .sub_article01 div, .sub_article03 div, .sub_article05 div {
     margin-right: 20px;
     margin-left: 20px;
     padding-bottom: 10px; }
-    .sub_article01 div p {
-      background-color: #ffae0059;
+    .sub_article01 div p, .sub_article03 div p, .sub_article05 div p {
+      background-color: #3586ff73;
       border-radius: 15px;
       padding: 10px;
       margin-right: 20px;
       font-size: 20px; }
-  .sub_article01 div {
+  .sub_article01 div, .sub_article03 div, .sub_article05 div {
     display: flex; }
-    .sub_article01 div p {
+    .sub_article01 div p, .sub_article03 div p, .sub_article05 div p {
       width: 100%;
       height: 20%; }
-    .sub_article01 div figure img {
+    .sub_article01 div figure img, .sub_article03 div figure img, .sub_article05 div figure img {
       border-radius: 15px;
-      width: 100%;
+      width: 70%;
       transition: 1s; }
-      .sub_article01 div figure img:hover {
-        translate: 110%;
+      .sub_article01 div figure img:hover, .sub_article03 div figure img:hover, .sub_article05 div figure img:hover {
+        translate: 120%;
         scale: 2;
         box-shadow: 10px 100px 100px 100px rgba(0, 0, 0, 0.562); }
 
 .sub_article02 {
   background-image: url("/project/res/custom/image copy.png");
   margin: 100px;
+  border: solid 2px;
   border-radius: 20px;
-  box-shadow: 0 0.1rem 1rem #333;
+  box-shadow: 0 0.5rem 1rem #333;
   transition: 1s; }
   .sub_article02:hover {
-    border-color: #ff0000;
-    box-shadow: 0 0.1rem 1rem #ff0000; }
+    box-shadow: 0 0.1rem 1rem #0066ff;
+    border-color: #0066ff; }
+    .sub_article02:hover h1 {
+      color: #0066ff; }
   .sub_article02 h1 {
+    font-family: serif;
     font-size: 50px;
+    color: #333;
     padding: 10px;
     text-align: center;
-    color: #000000;
-    background-color: #ff0000;
-    border-radius: 15px;
-    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.1); }
-    .sub_article02 h1:hover {
-      border: solid 1px; }
+    border-block-end: solid 3px;
+    border-radius: 15px; }
   .sub_article02 div {
     margin-right: 20px;
     margin-left: 20px;
     padding-bottom: 10px; }
     .sub_article02 div p {
-      background-color: #ff00005d;
+      background-color: #3586ff73;
       border-radius: 15px;
       padding: 10px;
       margin-right: 20px;
       font-size: 20px; }
   .sub_article02 div figure {
     display: flex;
-    object-fit: contain; }
+    object-fit: contain;
+    gap: 10px; }
     .sub_article02 div figure img {
       display: block;
       margin-left: auto;
@@ -220,6 +225,177 @@ body {
       transition: 1s; }
       .sub_article02 div figure img:hover {
         width: 50%;
-        translate: 0 -40%; }
+        translate: 0 -20%;
+        box-shadow: 10px 100px 100px 100px rgba(0, 0, 0, 0.562); }
+  .sub_article02 div i {
+    font-size: 30px;
+    color: black;
+    margin-right: 97%;
+    transition: 1s; }
+    .sub_article02 div i:hover {
+      translate: 0 -10px;
+      color: blue; }
+
+.sub_article04 {
+  background-image: url("/project/res/custom/image copy.png");
+  margin: 100px;
+  border: solid 2px;
+  border-radius: 20px;
+  box-shadow: 0 0.5rem 1rem #333;
+  transition: 1s; }
+  .sub_article04:hover {
+    box-shadow: 0 0.1rem 1rem #0066ff;
+    border-color: #0066ff; }
+    .sub_article04:hover h1 {
+      color: #0066ff; }
+  .sub_article04 h1 {
+    font-family: serif;
+    font-size: 50px;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    border-block-end: solid 3px;
+    border-radius: 15px; }
+  .sub_article04 div {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 10px; }
+    .sub_article04 div p {
+      background-color: #3586ff73;
+      border-radius: 15px;
+      padding: 10px;
+      margin-right: 20px;
+      font-size: 20px; }
+  .sub_article04 div figure {
+    display: flex;
+    object-fit: contain;
+    gap: 10px; }
+    .sub_article04 div figure img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      border-radius: 15px;
+      transition: 1s; }
+      .sub_article04 div figure img:hover {
+        width: 100%;
+        translate: 0 -20%;
+        box-shadow: 10px 100px 100px 100px rgba(0, 0, 0, 0.562); }
+  .sub_article04 div i {
+    font-size: 30px;
+    color: black;
+    margin-right: 97%;
+    transition: 1s; }
+    .sub_article04 div i:hover {
+      translate: 0 -10px;
+      color: blue; }
+
+.sub_article06 {
+  background-image: url("/project/res/custom/image copy.png");
+  margin: 100px;
+  border: solid 2px;
+  border-radius: 20px;
+  box-shadow: 0 0.5rem 1rem #333;
+  transition: 1s; }
+  .sub_article06:hover {
+    box-shadow: 0 0.1rem 1rem #0066ff;
+    border-color: #0066ff; }
+    .sub_article06:hover h1 {
+      color: #0066ff; }
+  .sub_article06 h1 {
+    font-family: serif;
+    font-size: 50px;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    border-block-end: solid 3px;
+    border-radius: 15px; }
+  .sub_article06 div {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 10px; }
+    .sub_article06 div p {
+      background-color: #3586ff73;
+      border-radius: 15px;
+      padding: 10px;
+      margin-right: 20px;
+      font-size: 20px; }
+  .sub_article06 div figure {
+    display: flex;
+    object-fit: contain;
+    gap: 10px; }
+    .sub_article06 div figure img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+      border-radius: 15px;
+      transition: 1s; }
+      .sub_article06 div figure img:hover {
+        width: 50%;
+        translate: 0 -20%;
+        box-shadow: 10px 100px 100px 100px rgba(0, 0, 0, 0.562); }
+  .sub_article06 div i {
+    font-size: 30px;
+    color: black;
+    margin-right: 97%;
+    transition: 1s; }
+    .sub_article06 div i:hover {
+      translate: 0 -10px;
+      color: blue; }
+
+.sub_article08 {
+  background-image: url("/project/res/custom/image copy.png");
+  margin: 100px;
+  border: solid 2px;
+  border-radius: 20px;
+  box-shadow: 0 0.5rem 1rem #333;
+  transition: 1s; }
+  .sub_article08:hover {
+    box-shadow: 0 0.1rem 1rem #0066ff;
+    border-color: #0066ff; }
+    .sub_article08:hover h1 {
+      color: #0066ff; }
+  .sub_article08 h1 {
+    font-family: serif;
+    font-size: 50px;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    border-block-end: solid 3px;
+    border-radius: 15px; }
+  .sub_article08 div {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 10px; }
+    .sub_article08 div p {
+      background-color: #3586ff73;
+      border-radius: 15px;
+      padding: 10px;
+      margin-right: 20px;
+      font-size: 20px; }
+  .sub_article08 div figure {
+    display: flex;
+    object-fit: contain;
+    gap: 10px; }
+    .sub_article08 div figure img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+      border-radius: 15px;
+      transition: 1s; }
+      .sub_article08 div figure img:hover {
+        width: 40%;
+        translate: 0 -20%;
+        box-shadow: 10px 100px 100px 100px rgba(0, 0, 0, 0.562); }
+  .sub_article08 div i {
+    font-size: 30px;
+    color: black;
+    margin-right: 97%;
+    transition: 1s; }
+    .sub_article08 div i:hover {
+      translate: 0 -10px;
+      color: blue; }
 
 /*# sourceMappingURL=artical.css.map */

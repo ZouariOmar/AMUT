@@ -11,31 +11,60 @@
 $AMUT_COLOR: #00a9ec57
 $AMUT_COLOR1: #3586ff
 
+//? Key animation D&D part
+@keyframes change-color
+  0%
+    background-color: green
+  100%
+    background-color: red
+
 marquee
   background-color: $AMUT_COLOR1
+  font-size: 20px
 
 /* Last news section */
-.lastNews h1
-  font-size: 30px
-  text-align: center
-  color: #4c89af9b
-  transition: 1s
-
-  &:hover
-    scale: 1.1
+.lastNews
+  h1
+    font-family: serif
+    font-size: 50px
+    text-align: center
+    color: #333
+    transition: 1s
+    &:hover
+      scale: 1.1
+  div
+    display: flex
+    justify-content: center
+    gap: 10px
+    margin: 0 100px
+    iframe
+      background-color: #333
+      border: solid 2px #333
+      box-shadow: 0 0.1rem 1rem #333
+      border-radius: 20px
+      overflow: hidden
+      width: 500px
+      height: 450px
+      transition: 1s
+      &:hover
+        border-color: $AMUT_COLOR1
+        box-shadow: 0 0.1rem 1rem $AMUT_COLOR1
 
 /* AMUT intro video */
-.AMUT_vid
-  width: 1020px
-  border-radius: 24px
-  border: solid #333
-  display: block
-  margin: 10px 20px
-  transition: 1s
-
-  &:hover
-    border-color: $AMUT_COLOR1
-    box-shadow: 0 0.1rem 1rem $AMUT_COLOR1
+.h__sec
+  display: flex
+  background: linear-gradient(0deg, #0059ff00 0%, $AMUT_COLOR1 80%)
+  video
+    width: 1020px
+    border-radius: 20px
+    border: solid #333
+    box-shadow: 0 0.1rem 1rem #333
+    display: flexbox
+    margin: 20px auto
+    transition: 1s
+    &:hover
+      border-color: $AMUT_COLOR1
+      box-shadow: 0 0.1rem 1rem $AMUT_COLOR1
 
 @media screen and (max-width: 1050px)
   .column
