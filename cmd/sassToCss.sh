@@ -1,8 +1,6 @@
 #!/bin/bash
 
-
-
-# Ensure the script receives exactly 2 arguments
+# Ensure the script receives exactly 1 arguments
 if [ "$#" -ne 1 ]; then
   echo "Usage: $0 input_filename output_filename"
   exit 1

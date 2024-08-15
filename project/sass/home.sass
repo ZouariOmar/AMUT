@@ -19,8 +19,9 @@ $AMUT_COLOR1: #3586ff
     background-color: red
 
 marquee
-  background-color: $AMUT_COLOR1
-  font-size: 20px
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', serif
+    background-color: $AMUT_COLOR1
+    font-size: 20px
 
 /* Last news section */
 .lastNews
@@ -37,6 +38,7 @@ marquee
     justify-content: center
     gap: 10px
     margin: 0 100px
+    padding: 20px 0
     iframe
       background-color: #333
       border: solid 2px #333
@@ -53,6 +55,8 @@ marquee
 /* AMUT intro video */
 .h__sec
   display: flex
+  justify-content: center
+  gap: 100px
   background: linear-gradient(0deg, #0059ff00 0%, $AMUT_COLOR1 80%)
   video
     width: 1020px
@@ -60,11 +64,17 @@ marquee
     border: solid #333
     box-shadow: 0 0.1rem 1rem #333
     display: flexbox
-    margin: 20px auto
+    margin: 20px 0
     transition: 1s
     &:hover
       border-color: $AMUT_COLOR1
       box-shadow: 0 0.1rem 1rem $AMUT_COLOR1
+  a
+    height: 100%
+    margin-top: 50px
+    img
+      border-radius: 10px
+      box-shadow: 0 0.1rem 1rem #333
 
 @media screen and (max-width: 1050px)
   .column

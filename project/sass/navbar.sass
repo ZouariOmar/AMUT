@@ -1,0 +1,74 @@
+/**************************************************
+ * @file navbar.css
+ * @author @ZouariOmar (zouariomar20@gmail.com)
+ * @IDE VSC
+ * @version 0.1
+ * @date 2024-06-06
+ * @copyright Copyright (c) 2024
+ ************************************************* */
+
+nav
+  position: fixed
+  top: 0
+  width: 100%
+  z-index: 1
+  ul
+    list-style-type: none
+    text-align: center
+    margin: 0
+    padding: 0
+    overflow: hidden
+    background-color: #333
+    li
+      a
+        display: block
+        color: white
+        text-align: center
+        padding: 14px 50px
+        text-decoration: none
+        &:hover
+          background-color: #111
+      i
+        padding-left: 20px
+      /* Sub nav bar */
+      ul
+        display: none
+        position: absolute
+        margin-top: 60px
+        background-color: #333
+        z-index: 1
+  li
+    display: inline-flex
+    a
+      display: block
+      color: white
+      text-align: center
+      text-decoration: none
+      font-size: 25px
+      transition: 0.5s
+      &:hover
+        background-color: #111
+        transform: scale(1.1)
+
+nav ul li:hover ul 
+        display: grid
+        z-index: 1
+        opacity: 1
+
+nav ul li ul li 
+        float: none
+        display: grid
+
+nav ul li ul li a 
+        font-size: 20px
+        display: block
+
+nav ul li ul li a:hover 
+        background-color: #575757
+
+.active
+  background-color: #00a9ec57
+
+.logo
+  margin-right: 20px
+  height: 60px

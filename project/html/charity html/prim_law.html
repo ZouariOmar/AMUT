@@ -29,6 +29,22 @@
 
 		<!--* Scripts -->
 		<script src="https://use.fontawesome.com/20ab91acc4.js"></script>
+		<script>
+			window.onscroll = function () {
+				myFunction();
+			};
+
+			var navbar = document.getElementById("navbar");
+			var sticky = navbar.offsetTop;
+
+			function myFunction() {
+				if (window.scrollY >= sticky) {
+					navbar.classList.add("sticky");
+				} else {
+					navbar.classList.remove("sticky");
+				}
+			}
+		</script>
 
 		<title>AMUT | Members</title>
 	</head>
@@ -96,12 +112,13 @@
 		</nav>
 		<!--* Navbar: end -->
 
-		<a href="http://www.exemple.com">
-			<i
-				class="fa fa-file-pdf-o"
-				aria-hidden="true"
-				style="font-size: 50px"></i>
-		</a>
+		<section class="prim_law">
+			<h1>النظام الأساسي</h1>
+			<a href="http://www.example.com" target="_blank">
+				<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+				<p>النظام الأساسي للجمعية.pdf</p>
+			</a>
+		</section>
 
 		<!--* Footer part: start -->
 		<footer class="footer">

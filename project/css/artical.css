@@ -75,7 +75,7 @@ body {
   margin: 20px;
   padding-bottom: 10px; }
   .information p {
-    border-radius: 12px;
+    border-radius: 20px;
     padding: 20px;
     margin: 10px;
     line-height: 1.5;
@@ -395,6 +395,76 @@ body {
     margin-right: 97%;
     transition: 1s; }
     .sub_article08 div i:hover {
+      translate: 0 -10px;
+      color: blue; }
+
+.sub_article09 {
+  background-image: url("/project/res/custom/image copy.png");
+  margin: 100px;
+  border: solid 2px;
+  border-radius: 20px;
+  box-shadow: 0 0.5rem 1rem #333;
+  transition: 1s; }
+  .sub_article09:hover {
+    box-shadow: 0 0.1rem 1rem #0066ff;
+    border-color: #0066ff; }
+    .sub_article09:hover h1 {
+      color: #0066ff; }
+    .sub_article09:hover header p {
+      border: solid 3px;
+      border-color: #0066ff; }
+  .sub_article09 h1 {
+    font-family: serif;
+    font-size: 50px;
+    color: #333;
+    padding-bottom: 50px;
+    text-align: center;
+    border-block-end: solid 3px;
+    border-radius: 20px; }
+  .sub_article09 section header {
+    display: flex;
+    gap: 20px;
+    margin: 0 20px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center; }
+    .sub_article09 section header p {
+      display: flexbox;
+      border: solid 3px;
+      border-radius: 20px;
+      padding: 50px;
+      font-size: 20px;
+      height: 20%;
+      width: 50%; }
+    .sub_article09 section header img {
+      width: 50%;
+      height: auto;
+      border-radius: 20px;
+      transition: 1s; }
+      .sub_article09 section header img:hover {
+        translate: 50%;
+        scale: 1.2;
+        box-shadow: 10px 100px 100px 100px rgba(0, 0, 0, 0.562); }
+  .sub_article09 section figure {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px 10px;
+    margin: 0 100px; }
+    .sub_article09 section figure:hover img {
+      filter: blur(5px); }
+    .sub_article09 section figure img {
+      width: 100%;
+      border-radius: 20px;
+      transition: 1s ease; }
+      .sub_article09 section figure img:hover {
+        filter: none;
+        box-shadow: 10px 100px 100px 100px rgba(0, 0, 0, 0.562); }
+  .sub_article09 footer i {
+    font-size: 30px;
+    color: black;
+    margin-right: 97%;
+    transition: 1s; }
+    .sub_article09 footer i:hover {
       translate: 0 -10px;
       color: blue; }
 
