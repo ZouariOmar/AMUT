@@ -1,0 +1,54 @@
+/**************************************************
+ * @file manual_slider.css  
+ * @author @ZouariOmar (zouariomar20@gmail.com)
+ * @IDE VSC
+ * @version 0.1
+ * @date 2024-06-06
+ * @copyright Copyright (c) 2024
+ ************************************************* */
+.mn_slider {
+  position: relative;
+  max-width: 1020px;
+  margin: auto;
+  border-radius: 20px;
+  overflow: hidden; }
+  .mn_slider .mn_slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out; }
+  .mn_slider .mn_slide {
+    object-fit: cover;
+    min-width: 100%;
+    transition: opacity 1s ease;
+    opacity: 0;
+    margin-top: 20px; }
+    .mn_slider .mn_slide video, .mn_slider .mn_slide img {
+      border-radius: 20px;
+      border: solid #333;
+      display: flexbox;
+      width: 100%;
+      border-radius: 20px; }
+  .mn_slider .mn_slide.mn_active {
+    opacity: 1;
+    position: absolute; }
+  .mn_slider .mn_prev, .mn_slider .mn_next {
+    background-color: #333;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    margin: 0 20px;
+    width: auto;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 50%;
+    user-select: none; }
+    .mn_slider .mn_prev:hover, .mn_slider .mn_next:hover {
+      background-color: #3586ff; }
+  .mn_slider .mn_next {
+    left: 0; }
+  .mn_slider .mn_prev {
+    right: 0; }
+
+/*# sourceMappingURL=manual_slider.css.map */

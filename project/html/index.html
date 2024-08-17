@@ -28,6 +28,7 @@
 		<link rel="stylesheet" type="text/css" href="../css/footer.css" />
 		<link rel="stylesheet" type="text/css" href="../css/navbar.css" />
 		<link rel="stylesheet" type="text/css" href="../css/slider.css" />
+		<link rel="stylesheet" type="text/css" href="../css/manual_slider.css" />
 
 		<!--* Scripts -->
 		<script src="https://use.fontawesome.com/20ab91acc4.js"></script>
@@ -106,20 +107,64 @@
 
 		<!-- Header part: start -->
 		<header class="h__sec">
-			<a href="https://www.unimed.com.tn/en">
-				<img src="/project/res/ADS imgs/Unimed AD.gif" alt="AD" />
-			</a>
+			<div class="ADs">
+				<a href="https://www.laboratoires-thea.com/">
+					<img
+						src="/project/res/ADS imgs/thea.gif"
+						title="Laboratoires Thea"
+						alt="AD" />
+				</a>
+				<a href="https://www.unimed.com.tn/en">
+					<img src="/project/res/ADS imgs/Unimed AD.gif" alt="AD" />
+				</a>
+			</div>
 
-			<video autoplay loop muted>
-				<source
-					src="../res/vid/Shiny Chrome Logo Reveal_free (online-video-cutter.com).mp4"
-					type="video/mp4" />
-				Your browser does not support the video tag.
-			</video>
+			<div class="mn_slider">
+				<div class="mn_slides">
+					<div class="mn_slide mn_active">
+						<video autoplay loop muted>
+							<source
+								src="../res/vid/Shiny Chrome Logo Reveal_free (online-video-cutter.com).mp4"
+								type="video/mp4" />
+							Your browser does not support the video tag.
+						</video>
+					</div>
+					<div class="mn_slide">
+						<img
+							src="/project/res/activiries imgs/2021 imgs/image copy 3.png"
+							alt="AD" />
+					</div>
+					<!-- Add more slides as needed -->
+					<div class="mn_slide">
+						<img
+							src="/project/res/activiries imgs/2021 imgs/image copy 3.png"
+							alt="AD" />
+					</div>
+					<div class="mn_slide">
+						<img
+							src="/project/res/activiries imgs/2021 imgs/image copy 3.png"
+							alt="AD" />
+					</div>
+				</div>
 
-			<a href="https://www.sanofi.com/en">
-				<img src="/project/res/ADS imgs/ezgif.com-animated-gif-maker.gif" alt="AD" />
-			</a>
+				<button class="mn_prev" onclick="moveSlide(-1)">&#10094;</button>
+				<button class="mn_next" onclick="moveSlide(1)">&#10095;</button>
+			</div>
+			<script src="/project/js/manual_slider.js"></script>
+
+			<div class="ADs">
+				<a href="https://qualixdot.com/en/our-board.html">
+					<img
+						src="/project/res/ADS imgs/ezgif-4-6b8fd33477.gif"
+						title="Qualix Pharma"
+						alt="AD" />
+				</a>
+				<a href="https://www.sanofi.com/en">
+					<img
+						src="/project/res/ADS imgs/ezgif.com-animated-gif-maker.gif"
+						alt="AD" />
+				</a>
+			</div>
 		</header>
 		<!-- Header part: end -->
 
@@ -182,10 +227,10 @@
 						src="https://www.unimed.com.tn/wp-content/uploads/2021/04/adwya-150x100.png"
 						alt="" />
 					<img
-						src="https://www.unimed.com.tn/wp-content/uploads/2021/04/adwya-150x100.png"
+						src="/project/res/ADS imgs/BN36319Sapih-removebg-preview.png"
 						alt="" />
 					<img
-						src="https://www.unimed.com.tn/wp-content/uploads/2021/04/adwya-150x100.png"
+						src="https://jeunesdavenirs.fr/wp-content/uploads/2023/05/BOIRON.png"
 						alt="" />
 					<img
 						src="https://www.unimed.com.tn/wp-content/uploads/2021/04/adwya-150x100.png"

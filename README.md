@@ -112,7 +112,7 @@ The About section provides detailed information about the association, its missi
 
 The activities section provides access to activities articles and other valuable resources.
 
-![Resources Page](project/res/screenshots/resources.png)
+![Resources Page](project/res/screenshots/Avtivities.png)
 
 ### Contacting AMUT
 
@@ -128,92 +128,136 @@ The Contact Us section includes a form for users to get in touch with AMUT for a
 
 ```sh
 .AMUT Project
+.
 ├── AMUT.code-workspace
 ├── cmd
-│   └── sassToCss.sh
+│   └── sassToCss.sh
 ├── github
+├── LICENSE
 ├── pkg
-│   ├── blog-card(2).zip
-│   ├── responsive-contact-form
-│   │   ├── dist
-│   │   │   ├── form.css
-│   │   │   ├── form.html
-│   │   │   └── form.js
-│   │   ├── license.txt
-│   │   ├── README.markdown
-│   │   └── src
-│   │       ├── index.html
-│   │       ├── script.js
-│   │       └── style.css
-│   ├── responsive-contact-form.zip
-│   └── slider custom
-│       ├── slider.css
-│       ├── slider.html
-│       ├── slider.js
-│       └── slider.sass
+│   ├── blog-card(2).zip
+│   └── responsive-contact-form.zip
 ├── project
-│   ├── css
-│   │   ├── about.css
-│   │   ├── artical.css
-│   │   ├── default.css
-│   │   ├── footer.css
-│   │   ├── form.css
-│   │   ├── home.css
-│   │   └── navbar.css
-│   ├── doc
-│   │   ├── Activités-AMUT 2021 jusqu à 2023.pptx
-│   │   └── قائمة في الهيئة التسييرية لجمعية اطباء من اجل تونس لسنة 2023-2024.docx
-│   ├── html
-│   │   ├── activities html
-│   │   │   ├── act-2021.html
-│   │   │   ├── act-2022.html
-│   │   │   ├── act-2023.html
-│   │   │   └── act-2024.html
-│   │   ├── charity html
-│   │   │   ├── about_us.html
-│   │   │   ├── members.html
-│   │   │   ├── objectives.html
-│   │   │   └── prim_law.html
-│   │   ├── contact.html
-│   │   └── index.html
-│   ├── js
-│   │   └── form.js
-│   ├── res
-│   │   ├── AMUT imgs
-│   │   │   ├── AMUT06.png
-│   │   │   ├── image.png
-│   │   │   ├── logo.png
-│   │   │   └── objectives.png
-│   │   ├── bkg imgs
-│   │   │   ├── pexels-md-sufiyan-2090648-3737018.jpg
-│   │   │   └── pexels-pixabay-268415.jpg
-│   │   ├── members imgs
-│   │   │   └── Med_zouari.jpg
-│   │   ├── screenshots
-│   │   │   ├── about.png
-│   │   │   ├── contact.png
-│   │   │   └── home.png
-│   │   ├── slider imgs
-│   │   │   ├── Pasted image (10).png
-│   │   │   ├── Pasted image (2).png
-│   │   │   ├── Pasted image (3).png
-│   │   │   ├── Pasted image (4).png
-│   │   │   ├── Pasted image (5).png
-│   │   │   ├── Pasted image (6).png
-│   │   │   ├── Pasted image (7).png
-│   │   │   ├── Pasted image (8).png
-│   │   │   ├── Pasted image (9).png
-│   │   │   └── Pasted image.png
-│   │   ├── test.jpeg
-│   │   └── vid
-│   │       ├── Shiny Chrome Logo Reveal_free (online-video-cutter.com)(1).mp4
-│   │       └── Shiny Chrome Logo Reveal_free (online-video-cutter.com).mp4
-│   └── sass
-│       ├── default.sass
-│       └── home.sass
-└── README.md
+│   ├── css
+│   │   ├── about.css
+│   │   ├── about.css.map
+│   │   ├── artical.css
+│   │   ├── artical.css.map
+│   │   ├── default.css
+│   │   ├── default.css.map
+│   │   ├── footer.css
+│   │   ├── form.css
+│   │   ├── home.css
+│   │   ├── home.css.map
+│   │   ├── manual_slider.css
+│   │   ├── manual_slider.css.map
+│   │   ├── navbar.css
+│   │   ├── navbar.css.map
+│   │   ├── prim_law.css.map
+│   │   ├── slider.css
+│   │   └── slider.css.map
+│   ├── doc
+│   │   ├── Activités-AMUT 2021 jusqu à 2023.pptx
+│   │   ├── النظام الأساسي للجمعية.pdf
+│   │   └── قائمة في الهيئة التسييرية لجمعية اطباء من اجل تونس لسنة 2023-2024.docx
+│   ├── html
+│   │   ├── activities html
+│   │   │   ├── act-2021.html
+│   │   │   ├── act-2022.html
+│   │   │   ├── act-2023.html
+│   │   │   └── act-2024.html
+│   │   ├── charity html
+│   │   │   ├── about_us.html
+│   │   │   ├── members.html
+│   │   │   ├── objectives.html
+│   │   │   └── prim_law.html
+│   │   ├── contact.html
+│   │   └── index.html
+│   ├── js
+│   │   ├── contact.js
+│   │   ├── manual_slider.js
+│   │   └── slider.js
+│   ├── res
+│   │   ├── activiries imgs
+│   │   │   ├── 2021 imgs
+│   │   │   │   ├── image copy 2.png
+│   │   │   │   ├── image copy 3.png
+│   │   │   │   ├── image copy 4.png
+│   │   │   │   ├── image copy.png
+│   │   │   │   └── image.png
+│   │   │   ├── 2022 imgs
+│   │   │   │   ├── image copy 2.png
+│   │   │   │   ├── image copy 3.png
+│   │   │   │   ├── image copy 4.png
+│   │   │   │   ├── image copy 5.png
+│   │   │   │   ├── image copy 6.png
+│   │   │   │   ├── image copy 7.png
+│   │   │   │   ├── image copy 8.png
+│   │   │   │   ├── image copy.png
+│   │   │   │   └── image.png
+│   │   │   ├── 2023 imgs
+│   │   │   │   ├── image copy 2.png
+│   │   │   │   ├── image copy 3.png
+│   │   │   │   ├── image copy 4.png
+│   │   │   │   ├── image copy 5.png
+│   │   │   │   ├── image copy 6.png
+│   │   │   │   ├── image copy 7.png
+│   │   │   │   ├── image copy 8.png
+│   │   │   │   ├── image copy.png
+│   │   │   │   └── image.png
+│   │   │   └── 2024 imgs
+│   │   ├── ADS imgs
+│   │   │   ├── BN36319Sapih-removebg-preview.png
+│   │   │   ├── ezgif-4-6b8fd33477.gif
+│   │   │   ├── ezgif.com-animated-gif-maker.gif
+│   │   │   ├── thea.gif
+│   │   │   └── Unimed AD.gif
+│   │   ├── AMUT imgs
+│   │   │   ├── AMUT06.png
+│   │   │   ├── image.png
+│   │   │   ├── logo.png
+│   │   │   └── objectives.png
+│   │   ├── bkg imgs
+│   │   │   ├── image.png
+│   │   │   ├── pexels-md-sufiyan-2090648-3737018.jpg
+│   │   │   └── pexels-pixabay-268415.jpg
+│   │   ├── custom
+│   │   │   ├── image copy.png
+│   │   │   └── image.png
+│   │   ├── members imgs
+│   │   │   └── Med_zouari.jpg
+│   │   ├── screenshots
+│   │   │   ├── about.png
+│   │   │   ├── Avtivities.png
+│   │   │   ├── contact.png
+│   │   │   └── home.png
+│   │   ├── slider imgs
+│   │   │   ├── Pasted image (10).png
+│   │   │   ├── Pasted image (2).png
+│   │   │   ├── Pasted image (3).png
+│   │   │   ├── Pasted image (4).png
+│   │   │   ├── Pasted image (5).png
+│   │   │   ├── Pasted image (6).png
+│   │   │   ├── Pasted image (7).png
+│   │   │   ├── Pasted image (8).png
+│   │   │   ├── Pasted image (9).png
+│   │   │   └── Pasted image.png
+│   │   ├── test.jpeg
+│   │   └── vid
+│   │       ├── Shiny Chrome Logo Reveal_free (online-video-cutter.com)(1).mp4
+│   │       └── Shiny Chrome Logo Reveal_free (online-video-cutter.com).mp4
+│   └── sass
+│       ├── about.sass
+│       ├── artical.sass
+│       ├── default.sass
+│       ├── home.sass
+│       ├── manual_slider.sass
+│       ├── navbar.sass
+│       └── slider.sass
+├── README.md
+└── tree.txt
 
-23 directories, 62 files
+26 directories, 102 files
 ```
 
 See the [open issues](https://github.com/ZouariOmar/AMUT/issues) for a full list of proposed features (and known issues).

@@ -453,9 +453,11 @@ body {
     .sub_article09 section figure:hover img {
       filter: blur(5px); }
     .sub_article09 section figure img {
+      object-fit: cover;
       width: 100%;
       border-radius: 20px;
-      transition: 1s ease; }
+      transition: 1s ease;
+      max-height: 600px; }
       .sub_article09 section figure img:hover {
         filter: none;
         box-shadow: 10px 100px 100px 100px rgba(0, 0, 0, 0.562); }
