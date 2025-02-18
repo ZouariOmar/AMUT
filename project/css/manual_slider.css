@@ -8,8 +8,9 @@
  ************************************************* */
 .mn_slider {
   position: relative;
-  max-width: 1020px;
-  margin: auto;
+  object-fit: cover;
+  max-width: 1300px;
+  margin-right: 50px;
   border-radius: 20px;
   overflow: hidden; }
   .mn_slider .mn_slides {

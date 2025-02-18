@@ -47,17 +47,17 @@ marquee {
 /* AMUT intro video */
 .h__sec {
   display: flex;
-  justify-content: center;
   background: linear-gradient(0deg, #0059ff00 0%, #3586ff 80%); }
-  .h__sec a {
-    height: 100%; }
-    .h__sec a img {
-      border-radius: 10px;
-      box-shadow: 0 0.1rem 1rem #333; }
 
+/* AMUT ADS */
 .ADs {
-  display: grid;
-  margin: 50px 100px; }
+  margin: 20px auto; }
+  .ADs img {
+    display: block;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0.1rem 1rem #333;
+    width: 100%; }
 
 @media screen and (max-width: 1050px) {
   .column {
